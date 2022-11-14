@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 56px;
+    margin-top: 164px;
+    margin-left: 119px;
+    color: #F0F0F0;
+    
+} 
+p{
+    Width: 514px;
+    Height: 66px;
+    margin-top: 408px;
+    margin-left: 119px;
+    color: #F0F0F0;
+}
+
+.banner{
+    background-image: radial-gradient(80.87% 481.72% at 15.17% 35.76%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.54) 51.88%, rgba(0, 0, 0, 0.24) 100%), url(imagens/nathan-dumlao-KixfBEdyp64-unsplash\ 1.png);
+    height: calc(100vh - 6.25rem);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 164px, 732px, 2127px, 119px;
+
+}
+
+.texto{
+    position: absolute;
+    Width: 589px;
+    Height: 228px;
+    margin-top: 164px;
+    margin-left: 119px;
+    color: #F0F0F0;
+    
+}
+.texxto{
+    position: absolute;
+    Width: 514px;
+    Height: 66px;
+    margin-top: 408px;
+    margin-left: 119px;
+    color: #F0F0F0;
+}
