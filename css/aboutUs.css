@@ -84,10 +84,15 @@ p {
 
 /* Start CSS landing content  */
 
+body {
+    background-color: #E5E5E5;
+}
+
+
 .aboutUsBanner {
     background-image: url(../assets/aboutUsCoffee.png);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: 100%;
     position: absolute;
     left: 0;
@@ -108,7 +113,62 @@ p {
 }
 
 .whoAreWe {
-    background-color: #E5E5E5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.whoAreWe span {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F0C00;
+    margin-bottom: 40px;
+}
+
+.whoAreWe p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F0C00;
+}
+
+.textContent {
+    position: relative;
+    display: flex;
+    top: 700px;
+    left: 200px;
+    flex-direction: row;
+}
+
+.titleBar {
+    position: absolute;
+    width: 301px;
+    height: 28px;
+    left: -20px;
+    top: 20px;
+    background-color: #FBC9A8;
+    z-index: -1;
+}
+
+.textContent img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.ourTeam {
+    display: flex;
+    flex-direction: column;
 }
 
 /* End CSS lading content */
