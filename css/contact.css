@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Start CSS header */
+
+header {
+    font-family: 'Cormorant Garamond';
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    background: #57290B;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 100px 0;
+}
+
+td {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    color: #EBDACC;
+    text-decoration: underline #B2784A 1.5px;
+    text-decoration-style: inherit;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+    text-decoration: none;
+    color: #EBDACC;
+}
+
+.headerLogo {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.headerLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoText {
+    font-size: 18px;
+    font-weight: 400;
+    color: #EBDACC;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-spacing: 150px 0;
+}
+
+.phone img {
+    margin-right: 8px;
+}
+
+.phone p {
+    color: #EBDACC;
+    text-decoration: underline #B2784A 1.5px;
+    text-decoration-style: inherit;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+/* End CSS header */
+
+/* Start CSS landing content  */
+
+/* End CSS lading content */
+
+/* Start CSS footer */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: #57290B;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bar {
+    width: 90%;
+    height: 2px;
+
+    background: #A76E42;
+    border-radius: 2px;
+}
+
+.developedBy {
+    color: #FFDAB8;
+    margin-left: 115px;
+    font-family: 'Open Sans';
+}
+
+.footerLogo {
+    margin-top: 40px;
+    margin-left: 135px;
+    width: 120px;
+    height: 120px;
+}
+
+.footerLogoText {
+    margin-left: 120px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contactFooter {
+    margin-top: 40px;
+    margin-left: 220px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+}
+
+.contactTitleFooter {
+    margin-bottom: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #EBDACC
+}
+
+
+.contactFooterData {
+    margin-bottom: 24px;
+    color: #EBDACC;
+}
+
+.address {
+    color: #EBDACC;
+}
+
+.phoneFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactFooter img {
+    height: 25px;
+    width: 25px;
+}
+
+.emailFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.addressFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialFooter {
+    position:absolute;
+    top: 40px;
+    left: 40%;
+    margin-left: 220px;
+    margin-right: 150px;
+    font-family: 'Open Sans';
+}
+
+.socialTitleFooter {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #EBDACC;
+    margin-bottom: 35px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 21px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EBDACC;
+
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EBDACC;
+
+}
+
+
+/* End CSS footer */
