@@ -82,25 +82,249 @@ p {
 
 /* End CSS header */
 
-/* Start CSS landing content  */
 
-.title {
+
+
+
+/* Start content*/
+
+.indexBanner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     position: absolute;
-    width: 589px;
-    height: 228px;
-    left: 119px;
-    top: 164px;
+    left: 0;
+    top: 125px;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/landingCoffee.png);
+}
 
+.bannerTitle {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 76px;
-
     color: #F0F0F0;
+    margin-right: 50%;
+    margin-left: 120px;
+    margin-top: 65px;
 }
 
+.bannerSubtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F0F0F0;
+    margin-right: 50%;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+
+.buttonConhecer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #8F542E;
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 27px;
+    width: 300px;
+    height: 57px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #F0F0F0;
+    border-color: #8F542E;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.aboutUs {
+    position: relative;
+    top: 700px;
+    left: 120px;
+}
+
+.aboutUsText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutUsText span {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F0C00;
+    text-decoration: underline #FBC9A8 7px;
+    text-decoration-style: inherit;
+    margin-bottom: 35px;
+    margin-top: 56px;
+}
+
+.aboutUsText p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1F0C00;
+}
+
+.buttonJourney {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #8F542E;
+    border-radius: 8px;
+    align-items: center;
+    gap: 27px;
+    width: 300px;
+    height: 57px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #F0F0F0;
+    border-color: #8F542E;
+    margin-top: 48px;
+    margin-left: 0;
+}
+
+.aboutUsImage {
+    width: 352px;
+    height: 340.41px;
+    margin-top: 110px;
+    margin-left: 150px;
+    border-radius: 8px;
+}
+
+.waveCoffee {
+    position: relative;
+    top: 800px;
+    width: 100%;
+}
+
+.redirect {
+    position: absolute;
+    top: 1400px;
+    width: 100%;
+    height: 800px;
+    background-color: #80451F;
+    z-index: -1;
+}
+
+.redirectContent {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redirectContent span {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F5F3ED;
+    text-decoration: underline #B2784A 4px;
+    text-decoration-style: inherit;
+}
+
+.choices {
+    margin-top: 50px;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bookstore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F3ED;
+    border-radius: 8px;
+    margin-right: 230px;
+}
+
+.cafeteria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F3ED;
+    border-radius: 8px;
+}
+
+.choices a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F0C00;
+    text-decoration: underline #B2784A 2px;
+    text-decoration-style: inherit;
+}
+
+.ourServicesButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 20px;
+    width: 250px;
+    height: 57px;
+    background: #FBC9A8;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #1F0C00;
+}
+
+
+
+/* .choices {
+    margin-top: 400px;
+} */
+
+
 /* End CSS lading content */
+
+
+
 
 /* Start CSS footer */
 
@@ -115,7 +339,7 @@ footer {
     width: 100%;
     height: 400px;
     position: absolute;
-    bottom: 0;
+    top: 2200px;
     left: 0;
 }
 
@@ -200,7 +424,7 @@ footer {
 }
 
 .socialFooter {
-    position:absolute;
+    position: absolute;
     top: 40px;
     left: 40%;
     margin-left: 220px;
