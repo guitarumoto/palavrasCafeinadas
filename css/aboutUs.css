@@ -169,9 +169,95 @@ body {
 .ourTeam {
     display: flex;
     flex-direction: column;
+    margin-top: 800px;
+    background-color: #80451F;
+    align-items: center;
 }
 
-/* End CSS lading content */
+.ourTeamTitle {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F5F3ED;
+    margin-top: 37px;
+}
+
+.ourTeamTitleBar {
+    width: 180px;
+    height: 0px;
+    border: 3px solid #B2784A;
+    margin-bottom: 40px;
+}
+
+.contextData {
+    display: flex;
+    flex-direction: column;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F3ED;
+    width: 950px;
+    height: 270px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.person p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F0C00;
+    width: 90%;
+}
+
+.person span {
+    margin-top: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #1F0C00;
+}
+
+.person img {
+    padding: 20px;
+    border-radius: 50%;
+    width: 243px;
+    height: 235px;
+}
+
+.carolinaBar {
+    margin-left: 0;
+    width: 210px;
+    height: 0px;
+    border: 2px solid #B2784A;
+}
+
+.lauraBar {
+    margin-left: 0;
+    width: 180px;
+    height: 0px;
+    border: 2px solid #B2784A;
+}
+
+.joaoBar {
+    margin-left: 0;
+    width: 160px;
+    height: 0px;
+    border: 2px solid #B2784A;
+}
+
+/* End content */
 
 /* Start CSS footer */
 
@@ -185,7 +271,7 @@ footer {
     background: #57290B;
     width: 100%;
     height: 400px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
