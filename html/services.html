@@ -7,12 +7,16 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Palavras Cafeínadas</title>
 
-   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/services.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+      defer></script>
+   <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+      crossorigin="anonymous">
 </head>
 
 <body>
@@ -41,12 +45,95 @@
    </header>
 
    <content>
-      <p classs="title">Leia acompanhado de uma culinária de qualidade</p>
-      <p classs="subTitle">Aonde a paixão por livros e o amor por café sempre tem lugar à mesa</p>
-      <button class="buttonConhecer">VENHA CONHECER</button>
+      <div class="servicesBanner">
+         <span>SERVIÇOS</span>
+      </div>
+      <div class="bannerDecoration">
+         <img class="right" src="../assets/rightShelfServices.png">
+         <img class="left" src="../assets/leftShelfServices.png">
+      </div>
+      <div class="library">
+         <span class="libraryTitle">LIVRARIA</span>
+         <div class="bestSellers">
+            <span class="bestSellersTitle">OS MAIS VENDIDOS</span>
+            <div class="firstLine">
+               <div class="book">
+                  <img src="../assets/firstBook.png">
+                  <span class="bookTitle">A História Sem Fim</span>
+                  <span class="bookAuthor">Michael Ende</span>
+               </div>
+               <div class="book">
+                  <img src="../assets/secondBook.png">
+                  <span class="bookTitle">Torto Arado</span>
+                  <span class="bookAuthor">Itamar Vieira Junior</span>
+               </div>
+               <div class="book">
+                  <img src="../assets/thirdBook.png">
+                  <span class="bookTitle">Rápido e Divagar</span>
+                  <span class="bookAuthor">Daniel Kahneman</span>
+               </div>
+            </div>
+            <div class="secondLine">
+               <div class="book">
+                  <img src="../assets/fourthBook.png">
+                  <span class="bookTitle">1984</span>
+                  <span class="bookAuthor">George Orwell</span>
+               </div>
+               <div class="book">
+                  <img src="../assets/fifthBook.png">
+                  <span class="bookTitle">O Milagre da Manhã</span>
+                  <span class="bookAuthor">Michael Ende</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="cafeteria">
+            <span>CAFETERIA</span>
+
+            <div class="swiffy-slider">
+               <ul class="slider-container">
+                  <li>
+                     <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                        <img src="../assets/firstSlider.png" style="max-width: 100%;height: auto; margin-bottom: 40px;">
+                        <a>Brigadeiro de Capuccino</a>
+                     </div>
+                  </li>
+                  <li>
+                     <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                        <img src="../assets/secondSlider.png" style="max-width: 100%;height: auto; margin-bottom: 40px">
+                        <a>Pão de Mel</a>
+                     </div>
+                  </li>
+                  <li>
+                     <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                        <img src="../assets/thirdSlider.png" style="max-width: 100%;height: auto; margin-bottom: 40px">
+                        <a>Bolo De Chocolate</a>
+                     </div>
+                  </li>
+                  <li>
+                     <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                        <img src="../assets/fourthSlider.png" style="max-width: 100%;height: auto; margin-bottom: 40px">
+                        <a>Sorvete De Café</a>
+                     </div>
+                  </li>
+               </ul>
+
+               <button type="button" class="slider-nav"></button>
+               <button type="button" class="slider-nav slider-nav-next"></button>
+
+               <div class="slider-indicators">
+                  <button class="active" style="margin-bottom: 25px;"></button>
+                  <button style="margin-bottom: 25px;"></button>
+                  <button style="margin-bottom: 25px;"></button>
+                  <button style="margin-bottom: 25px;"></button>
+               </div>
+            </div>
+         </div>
+
+      </div>
    </content>
 
-   <footer>
+   <!-- <footer>
       <table>
          <tr>
             <td>
@@ -83,7 +170,7 @@
       </table>
       <hr class="bar">
       <span class="developedBy">Desenvolvido por Unect Jr</span>
-   </footer>
+   </footer> -->
 </body>
 
 </html>

@@ -80,11 +80,183 @@ p {
     padding-bottom: 5px;
 }
 
+.carousel-inner {
+    position: absolute;
+}
+
 /* End CSS header */
 
-/* Start CSS landing content  */
 
-/* End CSS lading content */
+
+
+/* Start content  */
+
+.servicesBanner {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerDecoration {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    position: absolute;
+    right: 0%;
+    top: 240px;
+}
+
+.right {
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.servicesBanner span {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 107px;
+    color: #57290B;
+}
+
+.library {
+    position: absolute;
+    top: 520px;
+    left: 0;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F3ED;
+}
+
+.libraryTitle {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F0C00;
+    text-decoration: underline #FBC9A8 7px;
+    text-decoration-style: inherit;
+    margin-left: 120px;
+    margin-top: 50px
+}
+
+.bestSellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.bestSellersTitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #8F542E;
+    margin-bottom: 35px;
+    text-decoration: underline #B2784A 2.5px;
+    text-decoration-style: inherit;
+}
+
+.firstLine,
+.secondLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.bookTitle {
+    margin-top: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #1F0C00;
+}
+
+.bookAuthor {
+    margin-top: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #525252;
+}
+
+.cafeteria {
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #80451F;
+}
+
+.cafeteria span {
+    margin-top: 52px;
+    margin-bottom: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F5F3ED;
+}
+
+.cafeteria a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #1F0C00;
+    text-decoration: none;
+}
+
+.cafeteria img {
+    border-radius: 8px;
+}
+
+
+
+/* End content */
+
+
+
 
 /* Start CSS footer */
 
@@ -184,7 +356,7 @@ footer {
 }
 
 .socialFooter {
-    position:absolute;
+    position: absolute;
     top: 40px;
     left: 40%;
     margin-left: 220px;
